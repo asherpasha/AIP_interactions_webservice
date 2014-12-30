@@ -1,0 +1,23 @@
+---
+description: "Return interactions, interolog confidence and correlation coefficient for a given AGI locus. The data is from the BAR database used by BAR's AIV"
+main_module: main.py
+type: generic
+url: "http://bar.utoronto.ca/"
+version: 0.1
+whitelist:
+   - bar.utoronto.ca
+parameters:
+   -
+     description: "Valid AGI locus identifier"
+     id: locus
+     maxcardinality: 1
+     required: true
+     type: string
+     validator: "AT[1-5MC]G[0-9{5,5}"
+   -
+     description: "Published data only"
+     id: published
+     maxcardinality: 1
+     required: false
+     type: string
+
