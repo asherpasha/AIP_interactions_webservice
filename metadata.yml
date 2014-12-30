@@ -1,6 +1,7 @@
 ---
 description: "Return interactions, interolog confidence and correlation coefficient for a given AGI locus. The data is from the BAR database used by BAR's AIV"
 main_module: main.py
+name: interactions
 type: generic
 url: "http://bar.utoronto.ca/"
 version: 0.1
