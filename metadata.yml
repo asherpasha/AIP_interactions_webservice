@@ -13,7 +13,7 @@ parameters:
      maxcardinality: 1
      required: true
      type: string
-     validator: "AT[1-5MC]G[0-9{5,5}"
+     validator: "AT[1-5MC]G[0-9]{5,5}"
    -
      description: "Published data only"
      id: published
