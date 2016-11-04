@@ -5,7 +5,7 @@ description: Return interactions, interolog confidence and correlation coefficie
 main_module: interactions/main.py
 type: generic
 url: http://bar.utoronto.ca/
-icon: interactions/BAR.png
+icon: bar.png
 version: 0.2
 tags:
     - 'Arabidospis'
@@ -29,6 +29,7 @@ endpoints:
                   required: true
                   type: string
                   required: true
+                  default: At1g01010
                 - name: published
                   description: Published data only
                   required: false
