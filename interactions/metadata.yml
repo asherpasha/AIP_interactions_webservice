@@ -2,10 +2,10 @@
 
 name: interactions
 description: Return interactions, interolog confidence and correlation coefficient for a given AGI locus. The data is from the BAR database used by BAR AIV
-main_module: interactions.main.py
+main_module: interactions/main.py
 type: generic
 url: http://bar.utoronto.ca/
-icon: interactions.BAR.png
+icon: interactions/BAR.png
 version: 0.2
 tags:
     - 'Arabidospis'
