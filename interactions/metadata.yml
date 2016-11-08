@@ -5,9 +5,10 @@ description: Return interactions, interolog confidence and correlation coefficie
 main_module: interactions/main.py
 type: generic
 url: http://bar.utoronto.ca/
-icon: bar.png
+icon: BAR.png
 version: 0.2
 tags:
+    - 'BAR'
     - 'Arabidospis'
     - 'Interactions'
 authors:
