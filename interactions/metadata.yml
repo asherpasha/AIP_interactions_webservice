@@ -45,5 +45,5 @@ sources:
       sponsor_uri: http://www.utoronto.ca/
       provider_name: Nicholas Provart
       provider_email: nicholas.provart@utoronto.ca
-      uri: http://bar.utoronto.ca/eplant
+      uri: http://bar.utoronto.ca/interactions/cgi-bin/arabidopsis_interactions_viewer.cgi
 
